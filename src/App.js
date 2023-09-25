@@ -26,6 +26,4 @@ const App = () => {
   ]);
 };
 
-const container = document.getElementById("root");
-const root = createRoot(container);
-root.render(React.createElement(App));
+createRoot(document.getElementById('root')).render(React.createElement(App));
